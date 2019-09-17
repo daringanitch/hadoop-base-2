@@ -30,7 +30,7 @@ RUN set -x \
 RUN ln -s /opt/hadoop-$HADOOP_VERSION/etc/hadoop /etc/hadoop
 
 RUN mkdir /opt/hadoop-$HADOOP_VERSION/logs
-RUN mkdir /opt/hive/bin/hive
+
 RUN mkdir /hadoop-data
 
 ENV HADOOP_PREFIX=/opt/hadoop-$HADOOP_VERSION
